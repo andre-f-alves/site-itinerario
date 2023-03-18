@@ -1,0 +1,11 @@
+Media-Queries - Tamanhos de Tela
+
+- Telas pequenas: até 600px;
+
+- Celulares: 600px - 768px;
+
+- Tablets: 768px - 992px;
+
+- Desktops: 992px - 1200px;
+
+- Telas grandes: acima de 1200px.

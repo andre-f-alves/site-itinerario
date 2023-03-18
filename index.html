@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start! Hora do Desafio</title>
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/estilo.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Start! Hora do Desafio</h1>
+        <p>
+            Comportando diversas histórias
+        </p>
+        <span class="material-icons" id="menu-icon" onclick="abrir()">menu</span>
+        <nav id="menu">
+            <ul>
+                <li><a href="pages/stories.html">Histórias</a>
+                <li><a href="pages/soundtracks.html">Trilhas Sonoras</a>
+                <li><a href="pages/about.html">Sobre</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <p>
+            Este site foi criado dentro do Itinerário Formativo <strong>Start! Hora do Desafio</strong> para comportar e compartilhar histórias e criações de alunos da Escola EStadual Maria Aparecida Magno.  
+        </p>
+        <h2>
+            Trechos de Histórias
+        </h2>
+
+        <section id="trechos">
+            <p>[em desenvolvimento]</p>
+        </section>
+    
+    </main>
+
+    <footer>
+        <p>
+            Site criado por André e João Victor, sob orientação do professor Jair Cardoso, para o Itinerário Formativo "Start! Hora do Desafio".
+        </p>
+    </footer>
+
+    <script>
+
+        const menuIcon = document.querySelector('#menu-icon')
+
+        // function ajustar() {
+        //     if (window.innerWidth >= 992) {
+        //         menu.style.display = 'block'
+        //     } else {
+        //         menu.style.display = 'none'
+        //     }
+        // }
+
+        function abrir() {
+            menuIcon.classList.toggle('clicked')
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/* 
+    Versão Mobile
+*/
+
+:root {
+    /* paleta de cores */
+    --cor1: #FADB2A;
+    --cor2: #1863FA;
+    --cor3: #2F59AD;
+    --cor4: #5F0CAD;
+    --cor5: #9223FA;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url('../imgs/oficina-mobile.jpg');
+    background-position: center center;
+    background-size: cover;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+header > h1 {
+    text-align: center;
+    padding: 30px 30px 10px 30px;
+}
+
+header > p {
+    text-align: center;
+    padding: 7px;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+header #menu-icon {
+    display: inline-block;
+    text-align: left;
+    cursor: pointer;
+    padding: 5px;
+}
+
+header #menu-icon.clicked {
+    background-color: black;
+    color: white;
+}
+
+/* header #menu-icon:active {
+    background-color: black;
+    color: white;
+} */
+
+header > nav {
+    display: none;
+    position: absolute;
+    transform: translate(3px, 3px);
+    background-color: #000000b4;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header li::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: white;
+}
+
+header a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 4px 0px;
+}
+
+header a:hover {
+    font-size: 1.1em;
+    background-color: #ffffffc0;
+    color: black;
+    margin: 7px 0px;
+    transition: all .4s;
+}
+
+main {
+    height: 90vh;
+    padding: 20px;
+}
+
+main > p {
+    text-indent: 1.5em;
+}
+
+main > h2 {
+    margin: 20px 10px;
+}
+
+footer {
+    background-color: var(--cor1);
+    padding: 6px 0px;
+    text-align: center;
+    font-size: .7em;
+    font-weight: bold;
+    color: black;
+}
