@@ -38,7 +38,7 @@ header h2 {
 header #menu-icon {
     display: inline-block;
     position: absolute;
-    top: 8px;
+    top: 13px;
     left: calc(100vw - 50px);
     font-size: 1.8em;
     cursor: pointer;
