@@ -1,14 +1,5 @@
 @charset "UTF-8";
 
-:root {
-    /* paleta de cores */
-    --cor1: #FADB2A;
-    --cor2: #1863fa2d;
-    --cor3: #2F59AD;
-    --cor4: #5F0CAD;
-    --cor5: #9223FA;
-}
-
 * {
     padding: 0px;
     margin: 0px;
@@ -16,28 +7,42 @@
 }
 
 header {
-    height: 70px;
-    background-color: var(--cor2);
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.356);
+    padding: 5px;
+}
+
+header > div {
+    display: inline-block;
+    padding: 2px 5px;
 }
 
 header h1 {
-    font-size: 1.5em;
-    padding: 2px 10px;
+    font-size: 1.3em;
+    padding: 2px 0px;
+    margin-bottom: 2px;
+}
+
+header h1::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: black;
 }
 
 header h2 {
-    font-size: 1.2em;
-    padding: 2px 10px;
+    font-size: 1em;
+    padding: 2px 0px;
+    margin-top: 2px;
 }
 
 header #menu-icon {
     display: inline-block;
     position: absolute;
-    top: 1px;
-    left: 93vw;
-    font-size: 1.5em;
-    padding: 5px;
+    top: 8px;
+    left: calc(100vw - 50px);
+    font-size: 1.8em;
+    cursor: pointer;
+    padding: 6px;
 }
 
 header #menu-icon.clicked {
@@ -45,15 +50,16 @@ header #menu-icon.clicked {
     color: white;
 }
 
-header nav {
+header > nav {
     display: none;
     position: absolute;
-    top: 40px;
-    left: 56vw;
+    top: 55px;
+    left: calc(100vw - 210px);
     background-color: #000000da;
-    width: 200px;
+    width: 170px;
     padding: 8px 15px 15px 15px;
     border-radius: 10px;
+    text-align: right;
 }
 
 header ul {
