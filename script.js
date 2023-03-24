@@ -1,18 +1,14 @@
 const menuIcon = document.querySelector('#menu-icon')
+const menu = document.querySelector('#menu')
 
-// function ajustar() {
-//     if (window.innerWidth >= 992) {
-//         menu.style.display = 'block'
-//     } else {
-//         menu.style.display = 'none'
-//     }
-// }
 
-function abrir() {
+menuIcon.addEventListener('click', function() {
+    
     menuIcon.classList.toggle('clicked')
+    
     if (menu.style.display == 'block') {
         menu.style.display = 'none'
     } else {
         menu.style.display = 'block'
     }
-}
+})

@@ -8,7 +8,7 @@
     /* paleta de cores */
     --cor1: #FADB2A;
     --cor2: #1863FA;
-    --cor3: #2F59AD;
+    --cor3: #4b83f3;
     --cor4: #5F0CAD;
     --cor5: #9223FA;
 }
@@ -26,6 +26,7 @@ header {
     background-size: cover;
     padding-top: 20px;
     margin-bottom: 20px;
+    box-shadow: 0px 2px 5px #00000044;
 }
 
 header > h1 {
@@ -46,6 +47,13 @@ header #menu-icon {
     font-size: 1.8em;
     cursor: pointer;
     padding: 6px;
+    margin-left: 2px;
+    border-radius: 7px;
+}
+
+header #menu-icon:hover {
+    background-color: #00000031;
+    outline: 2px solid black;
 }
 
 header #menu-icon.clicked {
@@ -57,10 +65,11 @@ header > nav {
     display: none;
     position: absolute;
     transform: translate(3px, 3px);
-    background-color: #000000da;
-    width: 200px;
+    background-color: #000000e3;
+    width: 180px;
     padding: 8px 15px 15px 15px;
     border-radius: 10px;
+    font-size: .9em;
 }
 
 header ul {
@@ -88,7 +97,7 @@ header a:hover {
     font-size: 1.1em;
     background-color: #ffffffc0;
     color: black;
-    margin: 8px 0px;
+    margin: 10px 0px;
     transition: all .4s;
 }
 
