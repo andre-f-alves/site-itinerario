@@ -92,7 +92,6 @@ header a:hover::before {
 }
 
 main {
-    height: 90vh;
     padding: 20px;
 }
 
@@ -109,6 +108,30 @@ main > h2 {
     padding: 6px 10px;
     border-radius: 20px;
     margin: 20px 8px;
+}
+
+section > article {
+    padding: 10px;
+    margin: 7px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+article > h3 {
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+article > p {
+    text-indent: 1.5em;
+    text-align: justify;
+    line-height: 1.3em;
+    font-size: .9em;
+}
+
+main > p#info {
+    text-align: right;
+    font-size: .8em;
 }
 
 footer {
