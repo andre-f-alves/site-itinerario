@@ -22,7 +22,7 @@
     }
 
     header > nav {
-        display: block;
+        display: contents;
         position: relative;
         top: -.2em;
         background-color: transparent;
