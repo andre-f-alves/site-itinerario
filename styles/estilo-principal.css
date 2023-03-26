@@ -112,10 +112,10 @@ main > h2 {
 }
 
 section > article {
-    padding: 10px;
-    margin: 7px 0px;
+    padding: 30px 10px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    margin: 2px 0px;
 }
 
 article > h3 {
@@ -133,9 +133,12 @@ article > p {
 main > p#info {
     text-align: right;
     font-size: .8em;
+    margin: 20px 0px;
 }
 
 footer {
+    position: relative;
+    top: calc(100vh - 51.5em);
     background-color: var(--cor1);
     padding: 6px 0px;
     text-align: center;

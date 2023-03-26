@@ -8,8 +8,8 @@
     header > nav {
         display: inline-block;
         position: relative;
-        top: -15px;
-        left: calc(100vw - 735px);
+        top: -1em;
+        left: calc(100vw - 51.3em);
         background-color: transparent;
         width: max-content;
         padding: 0px;
@@ -31,7 +31,7 @@
         color: white;
         font-size: .9em;
         width: 150px;
-        padding: 7px 10px;
+        padding: 9px 10px;
         border-radius: 7px;
         margin: 0px 5px;
     }
@@ -41,6 +41,7 @@
         outline: 2px solid black;
         margin: 0px 8px;
         font-size: 1em;
+        transition: all .3s, outline 0s;
     }
 
     header a:hover::after {
