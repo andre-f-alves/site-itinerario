@@ -137,8 +137,6 @@ main > p#info {
 }
 
 footer {
-    position: relative;
-    top: calc(100vh - 51.5em);
     background-color: var(--cor1);
     padding: 6px 0px;
     text-align: center;
