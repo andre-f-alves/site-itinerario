@@ -3,6 +3,7 @@
 @import url('global.css');
 
 header {
+    position: relative;
     background-image: none;
     box-shadow: 0px 1px 3px #00000052;
     padding: 5px;
@@ -59,6 +60,7 @@ header #menu-icon.clicked {
 header > nav {
     display: none;
     position: absolute;
+    z-index: 2;
     top: 57px;
     left: calc(100vw - 210px);
     background-color: #000000e3;
