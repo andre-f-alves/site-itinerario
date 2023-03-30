@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@import url('global.css');
+
+main {
+    padding: 20px;
+}
+
+main > article {
+    position: relative;
+    padding: 25px 15px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    margin: 20px 0px;
+    box-shadow: 0px 0px 2px 1px #0000004f;
+}
+
+article > h3 {
+    display: inline-block;
+}
+
+article > a {
+    position: absolute;
+    top: 1.5em;
+    left: calc(100vw - 9em);
+    background-color: var(--cor2);
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: .9em;
+    width: 70px;
+    padding: 5px;
+    /* border: 1px solid black; */
+    border-radius: 7px;
+    box-shadow: 0px 0px 2px 1px #0000004f;
+}
+
+article > a:hover {
+    background-color: var(--cor3);
+    transform: translateY(-3px);
+    box-shadow: 0px -2px 2px #0000004f;
+    transition: all .2s;
+}
+
+article > a:active {
+    transform: translateY(1px);
+    box-shadow: inset 0px -1px 3px 1px #0000004f;
+    transition: all .1s;
+}

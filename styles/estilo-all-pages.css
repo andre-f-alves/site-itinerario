@@ -10,6 +10,7 @@ header {
 
 header > div {
     display: inline-block;
+    width: 200px;
     padding: 2px 5px;
 }
 
@@ -59,9 +60,9 @@ header > nav {
     display: none;
     position: absolute;
     top: 57px;
-    left: calc(100vw - 194px);
+    left: calc(100vw - 210px);
     background-color: #000000e3;
-    width: 185px;
+    width: 200px;
     padding: 8px 15px 15px 15px;
     border-radius: 10px;
     font-size: .9em;
@@ -84,16 +85,16 @@ header a {
     text-decoration: none;
     font-weight: bold;
     color: white;
-    padding: 8px;
+    padding: 10px;
     border-radius: 20px;
-    margin: 6px 0px;
+    margin: 13px 0px;
 }
 
 header a:hover {
     font-size: 1.1em;
     background-color: #ffffffc0;
     color: black;
-    margin: 10px 0px;
+    margin: 17px 0px;
     transition: all .4s;
 }
 

@@ -75,16 +75,16 @@ header a {
     text-decoration: none;
     font-weight: bold;
     color: white;
-    padding: 8px;
+    padding: 10px;
     border-radius: 20px;
-    margin: 6px 0px;
+    margin: 13px 0px;
 }
 
 header a:hover {
     font-size: 1.1em;
     background-color: #ffffffc0;
     color: black;
-    margin: 10px 0px;
+    margin: 17px 0px;
     transition: all .4s;
 }
 
@@ -133,12 +133,12 @@ article > p {
 main > p#info {
     text-align: right;
     font-size: .8em;
-    margin: 20px 0px;
+    margin: 50px 0px 20px 0px;
 }
 
 footer {
     background-color: var(--cor1);
-    padding: 6px 0px;
+    padding: 13px 7px;
     text-align: center;
     font-size: .7em;
     font-weight: bold;
