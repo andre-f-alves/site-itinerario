@@ -20,7 +20,6 @@ article > h3 {
 
 article > a {
     position: absolute;
-    z-index: 1;
     top: 1.5em;
     left: calc(100vw - 9em);
     background-color: var(--cor2);
