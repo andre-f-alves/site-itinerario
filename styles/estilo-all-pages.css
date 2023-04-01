@@ -61,12 +61,13 @@ header > nav {
     display: none;
     position: absolute;
     z-index: 2;
-    top: 57px;
+    top: 60px;
     left: calc(100vw - 210px);
     background-color: #000000e3;
     width: 200px;
     padding: 8px 15px 15px 15px;
     border-radius: 10px;
+    box-shadow: 0px 0px 3px 1px #00000052;
     font-size: .9em;
     text-align: right;
 }
