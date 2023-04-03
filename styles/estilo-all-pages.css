@@ -40,7 +40,7 @@ header #menu-icon {
     display: inline-block;
     position: absolute;
     top: 13px;
-    left: calc(100vw - 1.8em);
+    right: 10px;
     font-size: 1.8em;
     cursor: pointer;
     padding: 6px;
@@ -62,7 +62,7 @@ header > nav {
     position: absolute;
     z-index: 2;
     top: 60px;
-    left: calc(100vw - 210px);
+    right: 10px;
     background-color: #000000e3;
     width: 200px;
     padding: 8px 15px 15px 15px;
