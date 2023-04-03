@@ -59,6 +59,10 @@ header #menu-icon.clicked {
 
 header > nav {
     display: none;
+}
+
+header > nav.show {
+    display: block;
     position: absolute;
     z-index: 2;
     top: 60px;

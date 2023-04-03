@@ -10,6 +10,8 @@
     header {
         background-image: url('../imgs/oficina-mobile-2.jpg');
         background-position: right center;
+        position: relative;
+        height: 200px;
         transition: all .2s;
     }
 
@@ -17,14 +19,14 @@
         margin-bottom: 30px;
     }
 
-    /* header #menu-icon {
+    header #menu-icon {
         display: none;
     }
 
     header > nav {
-        display: contents;
+        display: block;
         position: relative;
-        top: -.2em;
+        bottom: .2em;
         background-color: transparent;
         width: max-content;
         padding: 0px;
@@ -43,16 +45,18 @@
     header a {
         background-color: black;
         color: white;
+        font-size: .9em;
         width: 150px;
         padding: 5px 10px;
         border-radius: 6px 6px 0px 0px;
-        margin: 0px 1px;
+        margin: 0px 2px;
     }
 
     header a:hover{
         background-color: #ffffffdc;
         font-size: 1em;
-        transform: translateY(-2px);
+        transform: translateY(-6px);
+        padding: 3px 0px 8px 0px;
         outline: 2px solid black;
         margin: 0px 3px;
         transition: all .4s, outline .2s;
@@ -60,7 +64,7 @@
 
     header a:hover::before {
         display: none;
-    } */
+    }
 }
 
 @media screen and (min-width: 992px) { /* Configuração para desktops e telas grandes */

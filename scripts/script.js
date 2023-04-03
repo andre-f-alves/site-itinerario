@@ -5,10 +5,15 @@ const menu = document.querySelector('#menu')
 menuIcon.addEventListener('click', function() {
     
     menuIcon.classList.toggle('clicked')
+    menu.classList.toggle('show')
+
+})
+
+window.addEventListener('resize', function() {
     
-    if (menu.style.display == 'block') {
-        menu.style.display = 'none'
-    } else {
-        menu.style.display = 'block'
+    if (window.innerWidth >= 768 && menu.classList.contains('show')) {
+    
+        menu.classList.remove('show')
+        menuIcon.classList.remove('clicked')
     }
 })

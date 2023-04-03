@@ -1,15 +1,17 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) { /* Configuração para tablets */
-    /* header #menu-icon {
+    header #menu-icon {
         display: none;
+        position: relative;
     }
 
     header > nav {
-        display: inline-block;
-        position: relative;
-        top: -1em;
-        left: calc(100vw - 37.3em);
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 10px;
         background-color: transparent;
         width: max-content;
         padding: 0px;
@@ -40,11 +42,11 @@
         background-color: #00000031;
         outline: 2px solid black;
         margin: 0px 8px;
-        font-size: 1em;
+        font-size: .9em;
         transition: all .3s, outline 0s;
     }
 
     header a:hover::after {
         display: none;
-    } */
+    }
 }
