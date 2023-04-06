@@ -25,24 +25,24 @@
 
     header > nav {
         display: block;
-        position: relative;
-        bottom: .2em;
+        position: absolute;
+        bottom: 0px;
         background-color: transparent;
         width: max-content;
         padding: 0px;
         border-radius: 0px;
     }
 
-    header li {
+    nav li {
         display: inline-block;
         text-align: center;
     }
 
-    header li::after {
+    nav li::after {
         display: none;
     }
 
-    header a {
+    nav a {
         background-color: black;
         color: white;
         font-size: .9em;
@@ -52,17 +52,16 @@
         margin: 0px 2px;
     }
 
-    header a:hover{
+    nav a:hover{
         background-color: #ffffffdc;
-        font-size: 1em;
-        transform: translateY(-6px);
-        padding: 3px 0px 8px 0px;
+        font-size: .9em;
+        transform: translateY(-2px);
         outline: 2px solid black;
         margin: 0px 3px;
-        transition: all .4s, outline .2s;
+        transition: all .3s ease-in, outline .2s ease-in;
     }
 
-    header a:hover::before {
+    nav a:hover::before {
         display: none;
     }
 }
@@ -73,11 +72,18 @@
         background-position: right center;
     }
 
-    main > section > article {
-        display: inline-block;
-        max-width: calc(50vw - 45px);
-        border-bottom: 0px;
-        border-top: 0px;
+    main > section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    section > article {
         margin: 7px;
+    }
+
+    section > hr {
+        display: none;
     }
 }

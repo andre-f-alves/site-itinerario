@@ -12,7 +12,6 @@ header {
     background-size: cover;
     position: relative;
     padding-top: 20px;
-    margin-bottom: 20px;
     box-shadow: 0px 1px 3px #00000044;
 }
 
@@ -67,18 +66,18 @@ header > nav.show {
     font-size: .9em;
 }
 
-header ul {
+nav ul {
     list-style-type: none;
 }
 
-header li::after {
+nav li::after {
     content: "";
     display: block;
     height: 1px;
     background-color: white;
 }
 
-header a {
+nav a {
     display: block;
     text-decoration: none;
     font-weight: bold;
@@ -88,15 +87,15 @@ header a {
     margin: 13px 0px;
 }
 
-header a:hover {
+nav a:hover {
     font-size: 1.1em;
     background-color: #ffffffc0;
     color: black;
     margin: 17px 0px;
-    transition: all .4s;
+    transition: all .3s ease-in;
 }
 
-header a:hover::before {
+nav a:hover::before {
     content: "> ";
 }
 
@@ -121,8 +120,6 @@ main > h2 {
 
 section > article {
     padding: 30px 10px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
     margin: 2px 0px;
 }
 
@@ -136,6 +133,12 @@ article > p {
     text-align: justify;
     line-height: 1.3em;
     font-size: .9em;
+}
+
+section > hr {
+    height: 1px;
+    width: 300px;
+    margin: auto;
 }
 
 main > p#info {

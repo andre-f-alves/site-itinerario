@@ -76,18 +76,18 @@ header > nav.show {
     text-align: right;
 }
 
-header ul {
+nav ul {
     list-style-type: none;
 }
 
-header li::after {
+nav li::after {
     content: "";
     display: block;
     height: 1px;
     background-color: white;
 }
 
-header a {
+nav a {
     display: block;
     text-decoration: none;
     font-weight: bold;
@@ -97,14 +97,14 @@ header a {
     margin: 13px 0px;
 }
 
-header a:hover {
+nav a:hover {
     font-size: 1.1em;
     background-color: #ffffffc0;
     color: black;
     margin: 17px 0px;
-    transition: all .4s;
+    transition: all .3s ease-in;
 }
 
-header a:hover::after {
+nav a:hover::after {
     content: " <";
 }

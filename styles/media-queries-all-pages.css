@@ -19,16 +19,16 @@
         border-radius: 0px;
     }
 
-    header li {
+    nav li {
         display: inline-block;
         text-align: center;
     }
 
-    header li::after {
+    nav li::after {
         display: none;
     }
 
-    header a {
+    nav a {
         background-color: black;
         color: white;
         font-size: .9em;
@@ -38,7 +38,7 @@
         margin: 0px 5px;
     }
 
-    header a:hover {
+    nav a:hover {
         background-color: #00000031;
         outline: 2px solid black;
         margin: 0px 8px;
@@ -46,7 +46,7 @@
         transition: all .3s, outline 0s;
     }
 
-    header a:hover::after {
+    nav a:hover::after {
         display: none;
     }
 }
