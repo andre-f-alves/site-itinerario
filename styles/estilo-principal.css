@@ -155,13 +155,13 @@ article > h3 {
 article > p {
     text-indent: 1.5em;
     text-align: justify;
-    line-height: 1.3em;
+    line-height: 1.2em;
     font-size: .9em;
 }
 
 section > hr {
     height: 1px;
-    width: 300px;
+    width: 50%;
     margin: auto;
 }
 

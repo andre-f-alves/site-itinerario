@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@import url('global.css');
+
+main {
+    max-width: 650px;
+    padding: 20px;
+    padding-top: 40px;
+    margin: auto;
+}
+
+main p {
+    font-size: 1em;
+    text-indent: 1.5em;
+    text-align: justify;
+    line-height: 1.2em;
+    margin-bottom: 15px;
+}

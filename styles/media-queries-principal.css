@@ -80,6 +80,7 @@
     }
 
     section > article {
+        min-width: 450px;
         margin: 7px;
     }
 

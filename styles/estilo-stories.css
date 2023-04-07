@@ -54,7 +54,7 @@ article > a:active {
         justify-content: space-evenly;
     }
 
-    main > article {
+    article {
         min-width: 450px;
     }
 }
