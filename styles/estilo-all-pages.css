@@ -36,32 +36,59 @@ header h2 {
     margin-top: 2px;
 }
 
-header #menu-icon {
-    display: inline-block;
+#menu-icon {
     position: absolute;
-    top: 13px;
+    top: 50%;
+    transform: translateY(-50%);
     right: 10px;
+    width: max-content;
     font-size: 1.8em;
     cursor: pointer;
-    padding: 6px;
+    padding: 7px 5px;
     border-radius: 7px;
 }
 
-header #menu-icon:hover {
+#menu-icon div {
+    background-color: black;
+    height: 2px;
+    width: 22px;
+    margin: 5px;
+}
+
+#menu-icon:hover {
     background-color: #00000031;
     outline: 2px solid black;
 }
 
-header #menu-icon.clicked {
+#menu-icon.clicked {
     background-color: black;
     color: white;
+}
+
+#menu-icon.clicked div {
+    background-color: white;
+}
+
+#menu-icon.clicked .line1 {
+    transform: rotate(-45deg) translate(-22%, 250%);
+    transition: transform .2s ease-in;
+}
+
+#menu-icon.clicked .line2 {
+    opacity: 0;
+    transition: opacity .1s ease-in;
+}
+
+#menu-icon.clicked .line3 {
+    transform: rotate(45deg) translate(-22%, -250%);
+    transition: transform .2s ease-in;
 }
 
 header > nav {
     display: none;
 }
 
-header > nav.show {
+nav.show {
     display: block;
     position: absolute;
     z-index: 2;
@@ -70,7 +97,7 @@ header > nav.show {
     background-color: #000000e3;
     width: 200px;
     padding: 8px 15px 15px 15px;
-    border-radius: 10px;
+    border-radius: 7px;
     box-shadow: 0px 0px 3px 1px #00000052;
     font-size: .9em;
     text-align: right;
