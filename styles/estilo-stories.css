@@ -45,3 +45,16 @@ article > a:active {
     transform: translateY(-45%);
     box-shadow: inset 0px -1px 2px #0000004f;
 }
+
+@media screen and (min-width: 992px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    main > article {
+        min-width: 450px;
+    }
+}
