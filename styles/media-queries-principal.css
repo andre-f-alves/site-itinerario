@@ -19,7 +19,7 @@
         margin-bottom: 30px;
     }
 
-    header #menu-icon {
+    #menu-icon {
         display: none;
     }
 
@@ -38,7 +38,7 @@
         text-align: center;
     }
 
-    nav li::after {
+    nav li:nth-child(1):after {
         display: none;
     }
 
@@ -53,7 +53,7 @@
     }
 
     nav a:hover{
-        background-color: #ffffffdc;
+        background-color: white;
         font-size: .9em;
         transform: translateY(-2px);
         outline: 2px solid black;
@@ -84,7 +84,7 @@
         margin: 7px;
     }
 
-    section > hr {
+    section > div.hr {
         display: none;
     }
 }
