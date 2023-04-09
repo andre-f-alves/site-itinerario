@@ -3,17 +3,13 @@ const menu = document.querySelector('#menu')
 
 
 menuIcon.addEventListener('click', function() {
-    
     menuIcon.classList.toggle('clicked')
     menu.classList.toggle('show')
-
 })
 
 window.addEventListener('resize', function() {
-    
-    if (window.innerWidth >= 768 && menu.classList.contains('show')) {
-    
-        menu.classList.remove('show')
+    if (window.innerWidth >= 768) {
         menuIcon.classList.remove('clicked')
+        menu.classList.remove('show')
     }
 })

@@ -80,8 +80,7 @@
     }
 
     section > article {
-        min-width: 450px;
-        margin: 7px;
+        width: 47%;
     }
 
     section > div.hr {
