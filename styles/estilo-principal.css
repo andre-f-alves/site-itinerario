@@ -161,7 +161,7 @@ article > p {
 }
 
 section > div.hr {
-    background-color: black;
+    background-color: darkgray;
     height: 1px;
     width: 65%;
     margin: auto;
