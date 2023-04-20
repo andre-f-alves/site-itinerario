@@ -53,6 +53,7 @@ header h2 {
     height: 2px;
     width: 22px;
     margin: 5px;
+    transition: 0.3s;
 }
 
 #menu-icon:hover {
@@ -71,17 +72,14 @@ header h2 {
 
 #menu-icon.clicked .line1 {
     transform: rotate(-45deg) translate(-22%, 250%);
-    transition: transform .2s ease-in;
 }
 
 #menu-icon.clicked .line2 {
     opacity: 0;
-    transition: opacity .1s ease-in;
 }
 
 #menu-icon.clicked .line3 {
     transform: rotate(45deg) translate(-22%, -250%);
-    transition: transform .2s ease-in;
 }
 
 header > nav {

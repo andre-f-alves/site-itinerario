@@ -3,14 +3,18 @@
 @import url('global.css');
 
 main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
     padding: 20px;
 }
 
 main > article {
     position: relative;
+    width: 100%;
     padding: 40px 25px;
     border-radius: 5px;
-    margin: 20px 0px;
     box-shadow: 0px 0px 2px 1px #0000004f;
 }
 
@@ -47,14 +51,8 @@ article > a:active {
 }
 
 @media screen and (min-width: 768px) {
-    main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    article {
-        width: 80%;
+    main > article {
+        width: 740px;
     }
 }
 
@@ -62,10 +60,11 @@ article > a:active {
     main {
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        align-content: space-evenly;
     }
 
     article {
-        width: 47%;
+        max-width: 47%;
     }
 }

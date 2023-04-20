@@ -64,6 +64,10 @@
     nav a:hover::before {
         display: none;
     }
+
+    section > article {
+        width: 700px;
+    }
 }
 
 @media screen and (min-width: 992px) { /* Configuração para desktops e telas grandes */
@@ -73,17 +77,13 @@
     }
 
     main > section {
-        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        align-content: space-evenly;
     }
 
     section > article {
-        width: 45%;
-    }
-
-    section > div.hr {
-        display: none;
+        width: 47%;
     }
 }
