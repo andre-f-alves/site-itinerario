@@ -12,7 +12,7 @@
         background-position: right center;
         position: relative;
         height: 200px;
-        transition: all .2s;
+        transition: .2s;
     }
 
     header > p {
@@ -28,9 +28,13 @@
         position: absolute;
         bottom: 0px;
         background-color: transparent;
-        width: max-content;
+        width: 325px;
         padding: 0px;
         border-radius: 0px;
+    }
+
+    nav ul {
+        flex-direction: row;
     }
 
     nav li {
@@ -38,7 +42,7 @@
         text-align: center;
     }
 
-    nav li:nth-child(1):after {
+    div.line {
         display: none;
     }
 
@@ -49,16 +53,13 @@
         width: 150px;
         padding: 5px 10px;
         border-radius: 6px 6px 0px 0px;
-        margin: 0px 2px;
+        transition: .2s ease-in-out;
     }
 
     nav a:hover{
         background-color: white;
-        font-size: .9em;
-        transform: translateY(-2px);
         outline: 2px solid black;
-        margin: 0px 3px;
-        transition: all .3s ease-in, outline .2s ease-in;
+        transform: translateY(-2px);
     }
 
     nav a:hover::before {

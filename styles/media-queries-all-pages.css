@@ -19,12 +19,16 @@
         border-radius: 0px;
     }
 
+    nav ul {
+        flex-direction: row;
+    }
+
     nav li {
         display: inline-block;
         text-align: center;
     }
 
-    nav li::after {
+    div.line {
         display: none;
     }
 
@@ -36,14 +40,12 @@
         padding: 9px 10px;
         border-radius: 7px;
         margin: 0px 5px;
+        transition: .2s ease-in-out;
     }
 
     nav a:hover {
-        background-color: #00000031;
+        background-color: #dfdfdf;
         outline: 2px solid black;
-        margin: 0px 8px;
-        font-size: .9em;
-        transition: all .3s, outline 0s;
     }
 
     nav a:hover::after {

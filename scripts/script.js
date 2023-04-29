@@ -3,13 +3,13 @@ const menu = document.querySelector('#menu')
 
 
 menuIcon.addEventListener('click', function() {
-    menuIcon.classList.toggle('clicked')
-    menu.classList.toggle('show')
+    menuIcon.classList.toggle('active')
+    menu.classList.toggle('active')
 })
 
 window.addEventListener('resize', function() {
     if (window.innerWidth >= 768) {
-        menuIcon.classList.remove('clicked')
-        menu.classList.remove('show')
+        menuIcon.classList.remove('active')
+        menu.classList.remove('active')
     }
 })
