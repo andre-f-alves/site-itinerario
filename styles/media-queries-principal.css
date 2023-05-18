@@ -28,13 +28,15 @@
         position: absolute;
         bottom: 0px;
         background-color: transparent;
-        width: 325px;
+        width: max-content;
         padding: 0px;
+        padding-left: 10px;
         border-radius: 0px;
     }
 
     nav ul {
         flex-direction: row;
+        column-gap: 10px;
     }
 
     nav li {

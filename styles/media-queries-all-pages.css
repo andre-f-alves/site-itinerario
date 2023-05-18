@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) { /* Configuração para tablets */
+@media screen and (min-width: 992px) { /* Configuração para tablets */
     header #menu-icon {
         display: none;
         position: relative;
