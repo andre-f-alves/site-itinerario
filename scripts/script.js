@@ -8,7 +8,7 @@ menuIcon.addEventListener('click', function() {
 })
 
 window.addEventListener('resize', function() {
-    if (window.innerWidth >= 768) {
+    if (window.innerWidth >= 992) {
         menuIcon.classList.remove('active')
         menu.classList.remove('active')
     }
