@@ -15,18 +15,6 @@
         margin-bottom: 30px;
     }
 
-    section > article {
-        width: 700px;
-    }
-}
-
-@media screen and (min-width: 992px) { /* Configuração para desktops e telas grandes */
-    header {
-        background-position: bottom right;
-        height: 250px;
-        padding-top: 30px;
-    }
-
     #menu-icon {
         display: none;
     }
@@ -73,6 +61,18 @@
 
     nav a:hover::before {
         display: none;
+    }
+
+    section > article {
+        width: 700px;
+    }
+}
+
+@media screen and (min-width: 992px) { /* Configuração para desktops e telas grandes */
+    header {
+        background-position: bottom right;
+        height: 250px;
+        padding-top: 30px;
     }
 
     main > section {

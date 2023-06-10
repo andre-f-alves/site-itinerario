@@ -1,17 +1,12 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 992px) { /* Configuração para tablets */
+@media screen and (min-width: 768px) { /* Configuração para tablets */
     header #menu-icon {
         display: none;
-        position: relative;
     }
 
     header > nav {
         display: block;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        right: 6px;
         background-color: transparent;
         width: max-content;
         padding: 0px;
@@ -36,7 +31,8 @@
         background-color: black;
         color: white;
         font-size: .9em;
-        width: 150px;
+        width: 18vw;
+        max-width: 180px;
         padding: 9px 10px;
         border-radius: 7px;
         margin: 0px;

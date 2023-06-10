@@ -4,14 +4,16 @@
 
 header {
     position: relative;
-    background-image: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     box-shadow: 0px 1px 3px #00000052;
     padding: 5px;
 }
 
 header > div {
-    display: inline-block;
-    width: 200px;
+    width: 170px;
     padding: 2px 5px;
 }
 
@@ -37,12 +39,9 @@ header h2 {
 }
 
 #menu-icon {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 10px;
+    transform: translateX(-15%);
     width: max-content;
-    font-size: 1.8em;
+    height: max-content;
     cursor: pointer;
     padding: 7px 5px;
     border-radius: 7px;
