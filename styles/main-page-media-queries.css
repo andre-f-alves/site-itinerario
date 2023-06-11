@@ -2,11 +2,7 @@
 
 @import url('global.css');
 
-/* 
-    Outros dispositivos
-*/
-
-@media screen and (min-width: 768px) { /* Configuração para tablets */
+@media screen and (min-width: 768px) { /* Tablets */
     header {
         position: relative;
     }
@@ -68,7 +64,7 @@
     }
 }
 
-@media screen and (min-width: 992px) { /* Configuração para desktops e telas grandes */
+@media screen and (min-width: 992px) { /* Desktops e telas grandes */
     header {
         background-position: bottom right;
         height: 250px;

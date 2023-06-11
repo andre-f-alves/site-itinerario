@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) { /* Configuração para tablets */
+@media screen and (min-width: 768px) {
     header #menu-icon {
         display: none;
     }
@@ -12,6 +12,7 @@
         padding: 0px;
         margin: 0px;
         border-radius: 0px;
+        transform: translateX(-10px);
     }
 
     nav ul {
@@ -30,10 +31,10 @@
     nav a {
         background-color: black;
         color: white;
-        font-size: .9em;
-        width: 18vw;
-        max-width: 180px;
-        padding: 9px 10px;
+        font-size: .8em;
+        width: 17vw;
+        max-width: 150px;
+        padding: 8px;
         border-radius: 7px;
         margin: 0px;
         transition: .2s ease-in-out;
