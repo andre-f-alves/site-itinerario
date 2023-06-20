@@ -12,21 +12,17 @@ main {
 
 main > article {
     position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     padding: 40px 25px;
     border-radius: 5px;
     box-shadow: 0px 0px 2px 1px #0000004f;
 }
 
-article > h3 {
-    display: inline-block;
-}
-
 article > a {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 25px;
     background-color: var(--cor2);
     text-decoration: none;
     text-align: center;
