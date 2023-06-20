@@ -168,6 +168,10 @@ article > p {
     text-align: justify;
 }
 
+p.authors {
+    padding-top: 10px;
+}
+
 main > p#info {
     text-align: right;
     font-size: .8em;
