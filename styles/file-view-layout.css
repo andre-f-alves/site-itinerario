@@ -38,12 +38,11 @@ article > a {
 article > a:hover {
     background-color: var(--cor3);
     box-shadow: 0px -1px 2px #0000004f;
-    transform: translateY(-65%);
+    transform: translateY(-15%);
 }
 
 article > a:active {
     box-shadow: inset 0px -1px 2px #0000004f;
-    transform: translateY(-50%);
 }
 
 @media screen and (min-width: 768px) {
